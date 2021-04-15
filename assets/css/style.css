@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(36, 36, 36);
+    color:white;
+    text-align: center;
+    padding:20px;
+    font-size:60px;
+}
+
+.main {
+    margin: 0 20px;
+}
+
+/* #searchButton {
+    padding:20px;
+} */
+
+.cityInput {
+    border: 2px solid grey;
+}
+
+.mainCard {
+    display: table;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+
+}
+
+.mainCardCity {
+    height: 200px;
+    display: table-row;
+}
+
+.mainCardStats {
+    display:table-row;
+}
+
+.fiveDayForcast {
+    justify-content: space-around;
+}
+
+.fiveDayCard {
+    background-color:rgb(46, 46, 201);
+}
