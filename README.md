@@ -23,7 +23,7 @@ The final page:
 https://justicegtr.github.io/Weather-Dashboard/
 
 ## Visuals
-![Portfolio webpage]()
+![Portfolio webpage](https://github.com/JusticeGTR/Weather-Dashboard/blob/main/assets/images/Screenshot%20(92).png)
 
 ## Usage
 
