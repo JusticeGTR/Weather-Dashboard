@@ -1,4 +1,3 @@
-//API key: 782e9a0040f4b5e0f593a6853da91e39
 //http://api.openweathermap.org
 
 // "http://api.openweathermap.org/data/2.5/weather?q={city name}&units=imperial&appid={API key}"
@@ -17,6 +16,7 @@ $(document).on('click', '#userInputCityButton', function(){
   var userInputCityEl = document.getElementById('userInputCity').value;
   console.log('userInputCityEl');
   getApi(userInputCityEl)
+
 $(document).ready(function(){
     $("#searchButton").click(function(){
         ;
