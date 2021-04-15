@@ -1,11 +1,25 @@
 //API key: 782e9a0040f4b5e0f593a6853da91e39
 //http://api.openweathermap.org
 
-api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
+// "http://api.openweathermap.org/data/2.5/weather?q={city name}&units=imperial&appid={API key}"
 
+
+var searchList = $("#searchList")
+var userImput = $("#userImput")
+var mainCardCity = $(".mainCardCity")
+var cardTemp = $(".cardTemp")
+var cardHumid = $(".cardHumid")
+var cardWind = $(".cardWind")
+var cardUV = $(".cardUV")
+var uvIndex = $("#uvIndex")
+
+$(document).on('click', '#userInputCityButton', function(){
+  var userInputCityEl = document.getElementById('userInputCity').value;
+  console.log('userInputCityEl');
+  getApi(userInputCityEl)
 $(document).ready(function(){
     $("#searchButton").click(function(){
-        console.log("Hello World!");
+        ;
     });
 });
 

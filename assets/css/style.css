@@ -22,12 +22,15 @@ header {
     border: 2px solid grey;
 }
 
+.mCard {
+    border-radius: 15px;
+}
+
 .mainCard {
     display: table;
     height: 100%;
     width: 100%;
     margin: 0;
-
 }
 
 .mainCardCity {
@@ -37,6 +40,29 @@ header {
 
 .mainCardStats {
     display:table-row;
+}
+
+.uvFavorable {
+background-color: green;
+color:white;
+border-radius: 5px;
+}
+.uvModerate {
+    background-color: yellow;
+    color:white;
+    border-radius: 5px;
+}
+
+.uvHigh {
+    background-color: orange;
+    color:white;
+    border-radius: 5px;
+}
+
+.uvSevere {
+    background-color: red;
+    color:white;
+    border-radius: 5px;
 }
 
 .fiveDayForcast {
