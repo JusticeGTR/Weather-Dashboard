@@ -1,5 +1,7 @@
 # Weather-Dashboard
 
+**[The final page!](https://justicegtr.github.io/Weather-Dashboard)**
+
 This is our sixth homework assignment in nu-chi-fsf-ft-03-2021-u-c! 
 
 In this excercise, we were tasked with creating a weather dashboard that can take a user inputted city, save it to local storage as well as a list of searched cities, and pull up various current and future weather conditions.
@@ -19,8 +21,7 @@ THEN I am again presented with current and future conditions for that city
 
 This one bent my mind a bit. The api stuff and local storage is still a bit tough. Hopefully I'll feel stronger on it soon.
 
-The final page:
-https://justicegtr.github.io/Weather-Dashboard/
+
 
 ## Visuals
 ![Portfolio webpage](https://github.com/JusticeGTR/Weather-Dashboard/blob/main/assets/images/Screenshot%20(92).png)
